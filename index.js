@@ -40,3 +40,7 @@ function newGame() {
     homeScoreEl.textContent = homeScore;
     guestScoreEl.textContent = guestScore;
 }
+
+window.increment = increment
+window.save = save
+window.reset = reset
