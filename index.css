@@ -1,0 +1,105 @@
+
+@font-face {
+    font-family: 'CursedTimerULIL';
+    src: url('/fonts/CursedTimerUlil-Aznm.ttf') format('truetype'); /* Adjust the path and format */
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    margin: 0;
+    background-color: #1B244A;
+} 
+
+.container {
+    display: flex;
+    margin: 20px auto;
+    justify-content: space-around;
+
+    
+}
+
+#title-board {
+
+    margin: 10px 10px;
+}
+
+.card {
+    text-align: center;
+    justify-content: center;
+    
+    font-family: Verdana;
+    color: #EEEEEE;
+    font-size: 35px;
+}
+
+.score {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #080001;
+    width: 155px;
+    height: 120px;
+    
+    margin: 20px auto 10px;
+    border-radius: 5px;
+    
+    font-family: 'CursedTimerULIL';
+    font-size: 90px;
+    color: #F94F6D;
+    text-align: center;
+    line-height: 1;
+    
+}
+
+
+.score h4 {
+    margin: 0; /* Remove margin */
+    transform: translateY(6px); /* Move text up slightly */
+    line-height: 1;
+}
+
+.add-points {
+    width: 155px;
+    display: flex;
+    margin: 20px auto;
+    text-align: center;
+    justify-content: space-between;
+
+    
+    font-family: 'CursedTimerULIL';
+    color: #9AABD8;
+}
+
+.point {
+    width: 45px;
+    border: 1px solid #9AABD8;
+    color: #9AABD8;
+    background-color: #1B244A;
+    border-radius: 5px;
+    padding: 10px 0 8px 0;
+    
+    font-family: inherit;
+    font-size: 18px;
+}
+
+
+.new-game {
+    display: flex;
+    width: 150px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px auto;
+}
+
+#new-game-btn {
+    font-family: 'CursedTimerULIL';
+    font-size: 18px;
+    color: #F94F6D;
+    background-color: #080001;
+    border-radius: 5px;
+    border: 1px solid #080001;
+    padding: 10px 20px 5px 20px;
+
+}

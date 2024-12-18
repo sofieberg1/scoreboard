@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            
+            <div class="card">
+                <h3 id="title-board">HOME</h3>
+                    <div class="score">
+                        <h4 id="home-score-el">0</h4>
+                    </div>
+                        <div class="add-points">
+                            <button class="point" onclick="add1PointHome()">+1</button>
+                            <button class="point" onclick="add2PointHome()">+2</button>
+                            <button class="point" onclick="add3PointHome()">+3</button>
+                        </div>
+            </div>
+            
+            <div class="card">
+                <h3 id="title-board">GUEST</h3>
+                    <div class="score">
+                        <h4 id="guest-score-el">0</h4>
+                    </div>
+                        <div class="add-points">
+                            <button class="point" onclick="add1PointGuest()">+1</button>
+                            <button class="point" onclick="add2PointGuest()">+2</button>
+                            <button class="point" onclick="add3PointGuest()">+3</button>
+                        </div>
+                        
+            </div>
+        </div>
+        
+        <div class="new-game">
+            <button id="new-game-btn" onclick="newGame()">NEW GAME</button>
+        </div>
+            
+        <script src="index.js"></script>
+    </body>
+</html>
