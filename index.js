@@ -41,6 +41,10 @@ function newGame() {
     guestScoreEl.textContent = guestScore;
 }
 
-window.increment = increment
-window.save = save
-window.reset = reset
+window.add1PointHome = add1PointHome
+window.add2PointHome = add2PointHome
+window.add3PointHome = add3PointHome
+window.add1PointGuest = add1PointGuest
+window.add2PointGuest = add2PointGuest
+window.add3PointGuest = add3PointGuest
+window.newGame = newGame
